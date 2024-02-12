@@ -1,0 +1,30 @@
+{
+    "networks": {
+        "sepolia": {
+            "endpointId": 40161,
+            "endpoint": "0x6edce65403992e310a62460808c4b910d972f10f"
+        },
+        "linea": {
+            "endpointId": 40157,
+            "endpoint": "0x6EDCE65403992e310A62460808c4b910D972f10f"
+        },
+        "mumbai": {
+            "endpointId": 40109,
+            "endpoint": "0x6edce65403992e310a62460808c4b910d972f10f"
+        },
+        "localhost": {
+            "endpointId": 40161,
+            "endpoint": "0x6edce65403992e310a62460808c4b910d972f10f"
+        },
+        "localhost6": {
+            "endpointId": 40109,
+            "endpoint": "0x6edce65403992e310a62460808c4b910d972f10f"
+        }
+    },
+    "addresses": {
+        "Token_sepolia": "0xc78401AC1a5237113845C0c3E5beA06aFAa87639",
+        "Proxy_sepolia": "0x5Ef3cB69b93FcccC6Cbe684403D8F01307483b84",
+        "Token_mumbai": "0x4f6B9F58CC3C707E63BA709014D1BEF4f254f177",
+        "Proxy_mumbai": "0xc1f96b1fA04f482b78530Af6078c3c1BBA4FC196"
+    }
+}

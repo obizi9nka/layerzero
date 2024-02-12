@@ -1,0 +1,25 @@
+{
+  "name": "lz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx hardhat run ./scripts/deploy.ts --network",
+    "deploy-ept": "npx hardhat run ./scripts/deploy-ept.ts --network"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@layerzerolabs/lz-evm-oapp-v2": "^2.0.25",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.4.1",
+    "@openzeppelin/contracts": "^4.9.5",
+    "@openzeppelin/contracts-upgradeable": "^4.9.5",
+    "ethers": "^6.11.0",
+    "hardhat": "^2.19.5"
+  },
+  "dependencies": {
+    "@layerzerolabs/lz-v2-utilities": "^2.0.25",
+    "dotenv": "^16.4.1"
+  }
+}
